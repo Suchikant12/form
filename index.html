@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        
+        <form onsubmit="myfunc(event)">
+            Name:<br>
+ <input type="text" id="first_name" placeholder="first_name"><input type="text" id="last_name" placeholder="last_name">
+           <br> Date of birth:<br>
+            <input type="date" id="date_of_birth"><br>
+            Email:<br>
+            <input type="email" id="email_id"><br>
+            Gender*<br>
+            <input type="radio" id="gender" name="gender">Male<br>
+            <input type="radio" name="gender">Female
+            <br>
+            Nationality:
+           <br> <input type="text" id="nationality"><br>
+           Aadhar Card:
+           <input type="text" id="aadhar_no." placeholder="#### #### ####"><br>
+            Home Address:<br>
+            <input type="text" id="street_address" placeholder="street address"> <input type="text"id="city" placeholder="city"><br>
+             Country<br>
+             <select id="Country">
+                <option value="">--Please choose an option--</option>
+                <option value="India">India</option>
+    <option value="Australia">Australia</option>
+    <option value="Brazil">Brazil</option>
+    <option value="Russia">Russia</option>
+    <option value="Albenia">Albenia</option>
+    <option value="Persia">Persia</option>
+</select><br>
+
+
+
+              
+              Telephone-Home:<br>
+              <input type="tel" id="telephone_home" placeholder="### ### ####"><br>
+              Telephone-Mobile:<br>
+              <input type="tel" id="telephone_mobile" placeholder="### ### ####"><br>
+             <input type="submit" value="submit">
+
+
+
+        </form>
+    </body>
+    <script src="script.js"></script>
+</html>
